@@ -1,22 +1,16 @@
 <script setup>
+import LogoImage from "./components/LogoImage.vue";
+import AppTitle from "./components/AppTitle.vue";
 import CounterInc from "./components/CounterInc.vue";
 </script>
 
 <template>
   <div id="app">
     <header>
-      <img
-        alt="Vue logo"
-        class="logo"
-        src="./assets/logo.svg"
-        width="125"
-        height="125"
-      />
+      <LogoImage />
 
       <div class="wrapper">
-        <div>
-          <h1>ATR Vue + Jest</h1>
-        </div>
+        <AppTitle />
         <CounterInc />
       </div>
     </header>
