@@ -33,3 +33,12 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Unit test with [Jest]([https://eslint.org/](https://jestjs.io/pt-BR/)https://jestjs.io/pt-BR/)
+
+```sh
+npm run unit
+```
+```sh
+npm run unit-verbose
+```
